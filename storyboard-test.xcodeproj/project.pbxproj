@@ -14,7 +14,6 @@
 		57A7892918D19932003055CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7892818D19932003055CF /* main.m */; };
 		57A7892D18D19932003055CF /* ESTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7892C18D19932003055CF /* ESTAppDelegate.m */; };
 		57A7893018D19932003055CF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A7892E18D19932003055CF /* Main_iPhone.storyboard */; };
-		57A7893318D19932003055CF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A7893118D19932003055CF /* Main_iPad.storyboard */; };
 		57A7893618D19932003055CF /* ESTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7893518D19932003055CF /* ESTFirstViewController.m */; };
 		57A7893918D19932003055CF /* ESTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7893818D19932003055CF /* ESTSecondViewController.m */; };
 		57A7893B18D19932003055CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A7893A18D19932003055CF /* Images.xcassets */; };
@@ -47,7 +46,6 @@
 		57A7892B18D19932003055CF /* ESTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESTAppDelegate.h; sourceTree = "<group>"; };
 		57A7892C18D19932003055CF /* ESTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTAppDelegate.m; sourceTree = "<group>"; };
 		57A7892F18D19932003055CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		57A7893218D19932003055CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		57A7893418D19932003055CF /* ESTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESTFirstViewController.h; sourceTree = "<group>"; };
 		57A7893518D19932003055CF /* ESTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTFirstViewController.m; sourceTree = "<group>"; };
 		57A7893718D19932003055CF /* ESTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESTSecondViewController.h; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 				57A7892B18D19932003055CF /* ESTAppDelegate.h */,
 				57A7892C18D19932003055CF /* ESTAppDelegate.m */,
 				57A7892E18D19932003055CF /* Main_iPhone.storyboard */,
-				57A7893118D19932003055CF /* Main_iPad.storyboard */,
 				57A7893418D19932003055CF /* ESTFirstViewController.h */,
 				57A7893518D19932003055CF /* ESTFirstViewController.m */,
 				57A7893718D19932003055CF /* ESTSecondViewController.h */,
@@ -237,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A7893318D19932003055CF /* Main_iPad.storyboard in Resources */,
 				57A7893B18D19932003055CF /* Images.xcassets in Resources */,
 				57A7893018D19932003055CF /* Main_iPhone.storyboard in Resources */,
 				57A7892718D19932003055CF /* InfoPlist.strings in Resources */,
@@ -299,14 +295,6 @@
 				57A7892F18D19932003055CF /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		57A7893118D19932003055CF /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57A7893218D19932003055CF /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		57A7894A18D19932003055CF /* InfoPlist.strings */ = {
